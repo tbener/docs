@@ -55,7 +55,7 @@ Installation
 
     > If you want to use MongoDB, LevelDB, or another database instead
     > of Redis please look at the
-    > [Configuring Databases](../../configuring/databases) section.
+    > [Configuring Databases](../../../configuring/databases) section.
     >
     > **Note:** These steps quickly setup a redis server but do not
     > fine-tuned it for production.
@@ -127,7 +127,7 @@ Installation
 
 1.  Start NodeBB process manually:
 
-    > **Note:** This should not be used for production but instead create a deamon manually, use Forever, or use Supervisor. Take a look at the options [here])../../running/index).
+    > **Note:** This should not be used for production but instead create a deamon manually, use Forever, or use Supervisor. Take a look at the options [here])../../../configuring/proxies/nginx).
 
     > ```
     > $ node app
